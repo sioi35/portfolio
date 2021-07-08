@@ -29,6 +29,12 @@
     <link rel="stylesheet" href="../../css/common-1.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 
+    <!-- <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
+
+
+    
+
     <style>
 /* 
         body{
@@ -143,11 +149,22 @@
             font-size: 1.3em; 
         }
 
-        code {
-            background-color: antiquewhite;
-            color: #444;
+        .about-content p {
+            font-size: 18px;
+            text-align: justify;
+            line-height: 1.8em;
         }
-   
+
+        .pro_detail{
+            font-size: 16px;
+            font-family: 'Lato', sans-serif;
+        }
+
+        .pro_detail li{
+            margin-bottom: 5px;
+        }
+
+
 
     </style>
 
@@ -186,7 +203,7 @@
             <div class="disply-table">
                 <div class="table-cell" data-aos="fade-up" data-aos-delay="0">
                     <h4>Shin Sinae</h4>
-                    <h1>SW<br />Developer</h1> </div>
+                    <h1>SW<br />Engineer</h1> </div>
             </div>
         </div>
     </div>
@@ -198,20 +215,28 @@
             <div class="col-md-6" data-aos="fade-up">
                 <h4>01</h4>
                 <h1 class="size-50">About me</h1>
-                <h3>"긍정적인 시너지를 주는 사람"</h3>
+                <h3>"실패를 두려워하지 않는 사람"</h3>
                 <div class="h-50"></div>
-                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value. Quickly promote premium strategic theme areas vis-a-vis.</p>
-                <p>Appropriately maintain standards compliant total linkage with cutting-edge action items. Enthusiastically create seamless synergy rather than excellent value.</p>
-                <!-- <div class="h-50"></div> <img src="img/Signature.svg" width="230" alt="" />
-                <div class="h-50"></div> -->
+                <div class="about-content">
+                    <p>안녕하세요. 소프트웨어 개발자 신시내입니다.</br>
+                        의료IT공학과에 진학하여 Java, Database, CSS, HTML등의 프로젝트를 진행하며 지식을 습득하였습니다.<br>
+                        개발을 하면서 어려움은 항상 있지만 고민하고 노력한 결과를 직접 볼 수 있다는 게 개발의 즐거움인 것 같습니다. </br>
+                        졸업 후에 많은 경험을 쌓고자 쌍용교육센터에서 Java기반 멀티 플랫폼 융합 SW개발 양성 과정을 들으면서 지식을 더 탄탄히 쌓고 접하지 못했던 언어들을 배우며 성장하고 있습니다.
+                    </p>
+                </div>
+                        
+
+                
+                <p></p>
+                <div class="h-50"></div>
             </div>
             <div class="col-md-6 about-img-div">
-                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" align="right" data-aos="fade-right" data-aos-delay="0" />
+                <img src="img/about-img.jpg" width="400" class="img-responsive" alt="" text-align="right" data-aos="fade-right" data-aos-delay="0" />
             </div>
         </div>
     </div>
     <!-- ./about -->
-    
+
     <!-- Graduation  -->
     <div class="section" id="experience">
         <div class="container">
@@ -274,25 +299,29 @@
             <div class="col-md-6" data-aos="fade-up">
                 <h4>03</h4>
                 <h1 class="size-50">Tech <br /> Skill</h1>
-                <h3>4년간의 학부생활과 약 6개월간의 교육을 통하여 저는 현재 이러한 스킬을 보유하게 되었습니다.</h3>
+                <h3>"저의 스킬입니다"</h3>
                 <div class="h-50"></div>
-                <p></p>
+                <div class="skill-content">
+                    <p>4년간의 학부생활과 6개월의 센터과정을 통해 습득한 스킬입니다.<br>
+                    </p>
+                </div>
+                
             
             </div>
 
             <div class="demo">
                 <div class="row">
                     <div class="col-md-offset-3 col-md-6">
-                        <!-- <h1 class="progressbar-title">Language</h1> -->
+                        <h1 class="progressbar-title">Language</h1>
                         <h3 class="progress-title">C</h3>
-                        <div class="progress red">
-                            <div class="progress-bar  progress-bar-striped active" style="width:65%;">
-                                <div class="progress-value">80%</div>
+                        <div class="progress red ">
+                            <div class="progress-bar active" style="width:65%; background-color: cornflowerblue;">
+                                <div class="progress-value">65%</div>
                             </div>
                         </div>
                         <h3 class="progress-title">Java</h3>
                         <div class="progress red">
-                            <div class="progress-bar progress-bar-danger progress-bar-striped active" style="width:65%;">
+                            <div class="progress-bar active" style="width:65%; background-color: gold;">
                                 <div class="progress-value">80%</div>
                             </div>
                         </div>
@@ -300,7 +329,7 @@
                         <!-- <h1 class="progressbar-title">DB</h1> -->
                         <h3 class="progress-title">Oracle</h3>
                         <div class="progress green">
-                            <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:95%;">
+                            <div class="progress-bar active" style="width:95%; background-color: tomato;">
                                 <div class="progress-value">75%</div>
                             </div>
                         </div>
@@ -308,21 +337,21 @@
                         <!-- <h1 class="progressbar-title">Web</h1> -->
                         <h3 class="progress-title">HTML5</h3>
                         <div class="progress blue">
-                            <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:87%;">
+                            <div class="progress-bar active" style="width:87%; background-color: MediumSeaGreen;">
                                 <div class="progress-value">87%</div>
                             </div>
                         </div>
 
                         <h3 class="progress-title">CSS3</h3>
                         <div class="progress blue">
-                            <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:87%;">
+                            <div class="progress-bar active" style="width:87%; background-color: darkslateblue;">
                                 <div class="progress-value">87%</div>
                             </div>
                         </div>
 
                         <h3 class="progress-title">JavaScript</h3>
                         <div class="progress yellow">
-                            <div class="progress-bar progress-bar-striped active" style="width:55%;">
+                            <div class="progress-bar active" style="width:55%; background-color: CadetBlue	;">
                                 <div class="progress-value">65%</div>
                             </div>
                         </div>
@@ -599,12 +628,9 @@
                             <p>1. 회사 직원들의 인적사항, 일정, 급여 등을 한눈에 확인할 수 있는 프로그램</p>
                             <p>2. 이 프로그램을 사용하여 기존의 전산 관리 시스템(연차, 게시판, 스케줄, 근태 관리 등)과 유사한 시스템을 이용하는 프로그램</p>
                             <br>
-                            
                             <h3>목적</h3>
-                            <p>1. 기존의 전산 관리 시스템 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
-                            <p>2. 근태 관리나 연차 신청, 혹은 직원들을 위한 커뮤니티 게시판을 한번에 이용할 수 있기 때문에 기존의 전산 관리 시스템보다 더 편리한 환경을 제공한다.</p>
-                            <p>3. 기존에는 오프라인에서만 이용할 수 있었던 환경이었으나, 온라인으로 이용할 수 있게 만듦으로써 직원들에게 편의성을 제공한다.</p>
-                            <br>
+                            <p>1. 기존의 전산 관리 시스템에 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
+                            <p>2. 스케줄, 근태 관리나 연차 신청 혹은 퇴직금, 연말정산 계산 기능을 더해 직원들이 회사 생활을 하는데 필요한 기능을 구현하여 기존의 전산 관리 시스템보다 더 편리한 환경을 제공합니다.</p>
 
                             <h3>사용 기술</h3>
                             <table class="pro_tbl2">
@@ -734,11 +760,8 @@
                                 <ul>
                                     <li>스케줄 확인하고 싶은 달을 입력하면 위 사진과 같이 달력과 연차 사용 직원들의 정보를 한 눈에 확인할 수 있습니다.</li>
                                     <li>날짜(일)을 입력하면 해당 날짜의 연차 상세정보(연차 종류/사유)를 확인할 수 있습니다.</li>
-                                </ul>
-                            </div>
-                            <div class= "pro_skill_detail">
-                                <ul>
-                                    <li>Calendar를 사용해 달력을 만들어주고 BufferedReader로 연차 정보가 들어있는 데이터를 읽어와 입력한 달의 연차 정보를 보여줍니다.</li>
+                                    <li>사용기술<br>
+                                        Ca</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -749,7 +772,7 @@
                             <div class= "pro_detail">
                                 <ul>
                                     <li>연차신청을 원하는 날짜를 입력하여 연차 신청을 할 수 있습니다.</li>
-                                    <li>해당 날짜에 같은 부서내의 직원이 연차 신청을 한 경우 날짜를 다시 입력하여야 하고, 중복이 없는경우 연차 신청을 완료합니다.</li>
+                                    <li>해당 날짜에 같은 부서내의 직원이 연차 신청을 한 경우 날짜를 다시 입력하여야 하고, 중복이 없는경우 연차 신청서를 작하여 신청을 완료합니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -759,7 +782,7 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>직원들은 출근/퇴근 체크를 할 수 있고, 자신의 근태현황을 확인할 수 있습니다.</li>
+                                    <li>직원들은 출/퇴근시 체크를 하여야하고, 자신의 근태현황을 확인할 수 있습니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -897,7 +920,6 @@
                             <h3>느낀점</h3>
                             <p>1. 기존의 전산 관리 시스템 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
                             <p>2. 근태 관리나 연차 신청, 혹은 직원들을 위한 커뮤니티 게시판을 한번에 이용할 수 있기 때문에 기존의 전산 관리 시스템보다 더 편리한 환경을 제공한다.</p>
-                            <p>3. 기존에는 오프라인에서만 이용할 수 있었던 환경이었으나, 온라인으로 이용할 수 있게 만듦으로써 직원들에게 편의성을 제공한다.</p>
                             <br>
                         </div>
                         
@@ -909,7 +931,7 @@
         </div>
     </div>
     
-    <!-- 자바 콘솔 프로젝트 -->
+    <!-- DB 프로젝트 -->
     <!--DEMO02-->
     <div id="animatedModal02" class="popup-modal pro-modal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
@@ -1089,9 +1111,13 @@
                             <div class= "pro_detail">
                                 <br />
                                 <img src="img/portfolio_2/pro02_T_login.png" alt="" class="img-responsive pro_img" />
+                                <br />
                                 <p> [결과] </p>  
                                 <img src="img/portfolio_2/pro02_T_login_result.png" alt="" class="img-responsive pro_img" />
                              <br />
+                                <ul>
+                                    <li>사용자가 입력한 아이디와 비밀번호가 저장된 정보와 일치하면 로그인할 수 있도록 프로시저를 구현하였습니다.</li>
+                                </ul>
                             </div>
                             <br /><br />
                             
@@ -1103,10 +1129,14 @@
                                 <br />
                                 <p>[교사 계정 조회]</p>
                                 <img src="img/portfolio_2/pro02_m002.png" alt="" class="img-responsive pro_img" />
+                                <br />
                                 <p> [결과] </p>  
                                 <img src="img/portfolio_2/pro02_m002_result.png" alt="" class="img-responsive pro_img" />
                                 <p>[교사 계정 수정]</p>
                                 <img src="img/portfolio_2/pro02_m002_update.png" alt="" class="img-responsive pro_img" />
+                                <ul>
+                                    <li>자주 사용하는 </li>
+                                </ul>
                              <br />
                             </div>
                             <br /><br />
@@ -1182,6 +1212,45 @@
                             
                             <br /><br />
 
+                            <h4>교사_성적관리</h4>
+                            <div class= "pro_detail">
+                                <p></p>                         
+                                <br />
+                                <img src="img/portfolio_2/pro02_T004.png" alt="" class="img-responsive pro_img" />
+                                <br />
+                                <p> [결과] </p>  
+                                <img src="img/portfolio_2/pro02_T004_result.png" alt="" class="img-responsive pro_img" />
+                                <br />
+                                <ul>
+                                    <li>
+                                        관리자는 개설과정의 종료날짜가 되면 교육생들을 종료교육생 테이블로 이동시켜야합니다.
+                                    </li>
+                                    <li>
+                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 종료교육생 테이블로 이동시킬 수 있습니다.
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <br /><br />
+
+                            <h4>교육생_출결체크</h4>
+                            <div class= "pro_detail">
+                                <p></p>                         
+                                <br />
+                                <img src="img/portfolio_2/pro02_S001.png" alt="" class="img-responsive pro_img" />
+                                <br />
+                                <ul>
+                                    <li>
+                                        관리자는 개설과정의 종료날짜가 되면 교육생들을 종료교육생 테이블로 이동시켜야합니다.
+                                    </li>
+                                    <li>
+                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 종료교육생 테이블로 이동시킬 수 있습니다.
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <br /><br />
+
                             <h3>적용 기술</h3>
                             <table class="pro_tbl">
                                 <tr>
@@ -1213,7 +1282,6 @@
         </div>
     </div>
 
-    
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
@@ -1226,6 +1294,7 @@
 
     <!--  main script  -->
     <script src="js/custom.js"></script>
+
 </body>
 
 </html>
