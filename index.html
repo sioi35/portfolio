@@ -33,8 +33,6 @@
     <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css"> -->
 
 
-    
-
     <style>
 /* 
         body{
@@ -44,7 +42,7 @@
         .pro_tbl {
             font-family: 'Lato', sans-serif;
             border-collapse: separate;
-            border-spacing: 0 10px;
+            border-spacing: 0 5px;
             margin-bottom: 1rem;
             font-weight: bold;
             vertical-align: middle;
@@ -53,24 +51,26 @@
         .pro_tbl th{
             background-color: #2C313A;
             color: white;
-            height: 50px;
-            padding: 15px;
+            height: 25px;
+            padding: 10px;
             vertical-align: middle;
             text-align: center;         
         }
 
+        .pro_tbl .header1{
+            width: 125px;
+        }
+        .pro_tbl .header2{
+            width: 155px;
+        }
+        .pro_tbl .header3{
+            width: 125px;
+        }
+
         .pro_tbl td{
             padding: 15px;            
-            background-color: #F8F9FD;
+            background-color: #fffbfb;
             /* padding: 10px; */
-        }
-
-        .pro_tbl .first{
-            width: 120px;
-        }
-
-        .pro_tbl .second{
-            width: 250px;
         }
 
         .pro_tbl tr{
@@ -83,6 +83,7 @@
             font-weight: bold;
             vertical-align: middle;
         }
+
         .pro_tbl2 th{
             background-color: #2C313A;
             color: white;
@@ -149,6 +150,28 @@
             font-size: 1.3em; 
         }
 
+        .pro_tbl4 {
+            font-family: 'Lato', sans-serif;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+        
+        .pro_tbl4 th{
+            border: 1px solid #cfcfd1; 
+            background-color: #2C313A;
+            color: white;
+            height: 50px;
+            padding: 15px;
+            vertical-align: middle;
+        }
+
+        .pro_tbl4 td{
+            padding: 10px;      
+            border: 1px solid #cfcfd1;      
+            /* padding: 10px; */
+        }
+
         .about-content p {
             font-size: 18px;
             text-align: justify;
@@ -158,10 +181,18 @@
         .pro_detail{
             font-size: 16px;
             font-family: 'Lato', sans-serif;
+            /* border: 1px solid #F5F5F5 */
+            /* background-color:#F8F9FD; */
         }
 
         .pro_detail li{
             margin-bottom: 5px;
+        }
+
+        .pro_obj div{
+            font-size: 16px;
+            /* border-bottom:1px solid #cfcfd1 ; */
+            padding: 10px; 
         }
 
 
@@ -205,6 +236,7 @@
                     <h4>Shin Sinae</h4>
                     <h1>SW<br />Engineer</h1> </div>
             </div>
+            
         </div>
     </div>
     <!-- ./home -->
@@ -215,18 +247,15 @@
             <div class="col-md-6" data-aos="fade-up">
                 <h4>01</h4>
                 <h1 class="size-50">About me</h1>
-                <h3>"실패를 두려워하지 않는 사람"</h3>
+                <h3>‘빠르게 변화하는 시대에 걸맞은 사람’</h3>
                 <div class="h-50"></div>
                 <div class="about-content">
                     <p>안녕하세요. 소프트웨어 개발자 신시내입니다.</br>
-                        의료IT공학과에 진학하여 Java, Database, CSS, HTML등의 프로젝트를 진행하며 지식을 습득하였습니다.<br>
-                        개발을 하면서 어려움은 항상 있지만 고민하고 노력한 결과를 직접 볼 수 있다는 게 개발의 즐거움인 것 같습니다. </br>
-                        졸업 후에 많은 경험을 쌓고자 쌍용교육센터에서 Java기반 멀티 플랫폼 융합 SW개발 양성 과정을 들으면서 지식을 더 탄탄히 쌓고 접하지 못했던 언어들을 배우며 성장하고 있습니다.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit quod cupiditate. Consequuntur nemo cum cumque, dicta blanditiis corrupti reprehenderit odit quaerat quia recusandae, quam facilis sit, dolores repudiandae unde.
+                        Esse aspernatur animi accusamus aut magni, provident velit vel, ullam laboriosam 
                     </p>
                 </div>
                         
-
-                
                 <p></p>
                 <div class="h-50"></div>
             </div>
@@ -299,12 +328,30 @@
             <div class="col-md-6" data-aos="fade-up">
                 <h4>03</h4>
                 <h1 class="size-50">Tech <br /> Skill</h1>
-                <h3>"저의 스킬입니다"</h3>
+                <h3>"제가 보유한 스킬입니다."</h3>
                 <div class="h-50"></div>
                 <div class="skill-content">
                     <p>4년간의 학부생활과 6개월의 센터과정을 통해 습득한 스킬입니다.<br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad reprehenderit quod cupiditate. Consequuntur nemo cum cumque, dicta blanditiis corrupti reprehenderit odit quaerat quia recusandae, quam facilis sit, dolores repudiandae unde.
+                        Esse aspernatur animi accusamus aut magni, provident velit vel, ullam laboriosam 
                     </p>
                 </div>
+                <div class="h-50"></div>
+                <h3>자격증</h3>
+
+                <table class="pro_tbl">
+                    <tr>
+                        <th class="header1">자격</th>
+                        <th class="header2">발행처</th>
+                        <th class="header3">취득일</th>
+                    </tr>
+                    <tr>
+                        <td>정보처리기사</td>
+                        <td>산업인력관리공단</td>
+                        <td>2020.08.28</td>
+                    </tr>
+                </table>
+          
                 
             
             </div>
@@ -315,13 +362,13 @@
                         <h1 class="progressbar-title">Language</h1>
                         <h3 class="progress-title">C</h3>
                         <div class="progress red ">
-                            <div class="progress-bar active" style="width:65%; background-color: cornflowerblue;">
+                            <div class="progress-bar active" style="width:65%; background-color: #696969;">
                                 <div class="progress-value">65%</div>
                             </div>
                         </div>
                         <h3 class="progress-title">Java</h3>
                         <div class="progress red">
-                            <div class="progress-bar active" style="width:65%; background-color: gold;">
+                            <div class="progress-bar active" style="width:80%; background-color: #696969;">
                                 <div class="progress-value">80%</div>
                             </div>
                         </div>
@@ -329,7 +376,7 @@
                         <!-- <h1 class="progressbar-title">DB</h1> -->
                         <h3 class="progress-title">Oracle</h3>
                         <div class="progress green">
-                            <div class="progress-bar active" style="width:95%; background-color: tomato;">
+                            <div class="progress-bar active" style="width:75%; background-color: #696969;">
                                 <div class="progress-value">75%</div>
                             </div>
                         </div>
@@ -337,21 +384,21 @@
                         <!-- <h1 class="progressbar-title">Web</h1> -->
                         <h3 class="progress-title">HTML5</h3>
                         <div class="progress blue">
-                            <div class="progress-bar active" style="width:87%; background-color: MediumSeaGreen;">
-                                <div class="progress-value">87%</div>
+                            <div class="progress-bar active" style="width:90%; background-color: #696969;">
+                                <div class="progress-value">90%</div>
                             </div>
                         </div>
 
                         <h3 class="progress-title">CSS3</h3>
                         <div class="progress blue">
-                            <div class="progress-bar active" style="width:87%; background-color: darkslateblue;">
-                                <div class="progress-value">87%</div>
+                            <div class="progress-bar active" style="width:85%; background-color: #696969;">
+                                <div class="progress-value">85%</div>
                             </div>
                         </div>
 
                         <h3 class="progress-title">JavaScript</h3>
                         <div class="progress yellow">
-                            <div class="progress-bar active" style="width:55%; background-color: CadetBlue	;">
+                            <div class="progress-bar active" style="width:65%; background-color: #696969	;">
                                 <div class="progress-value">65%</div>
                             </div>
                         </div>
@@ -404,11 +451,11 @@
                         <!-- portfolio_container -->
                         <div class="no-padding portfolio_container clearfix" data-aos="fade-up">
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6  fashion logo">
+                            <div class="col-md-4 col-sm-6 logo">
                                 <a id="demo01" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/pro01.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>전산 관리 시스템</span> <em>Java Project/4人</em> </div>
+                                            <div class="item_info"> <span>전산 관리 시스템</span> <em>Java Project/5人</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -416,11 +463,11 @@
                             <!-- end single work -->
                             
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 ads graphics">
+                            <div class="col-md-4 col-sm-6 logo">
                                 <a id="demo02" href="#animatedModal02" class="portfolio_item"> <img src="img/portfolio_2/promain.png" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>sist 운영관리 시스템</span> <em>Database /4人</em> </div>
+                                            <div class="item_info"> <span>sist 운영관리 시스템</span> <em>Database /5人</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -429,10 +476,10 @@
                             
                             <!-- single work -->
                             <div class="col-md-4 col-sm-6 photography">
-                                <a id="demo03" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
+                                <a id="demo03" href="#animatedModal03" class="portfolio_item"> <img src="img/portfolio/02.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
-                                            <div class="item_info"> <span>Photorealistic smartwatch</span> <em>Photography</em> </div>
+                                            <div class="item_info"> <span>Update 예정중입니다.</span> <em>Java 게임 프로젝트</em> </div>
                                         </div>
                                     </div>
                                 </a>
@@ -440,7 +487,7 @@
                             <!-- end single work -->
                             
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 fashion ads">
+                            <!-- <div class="col-md-4 col-sm-6 fashion ads">
                                 <a id="demo04" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/04.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
@@ -448,11 +495,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
                             <!-- end single work -->
                             
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 graphics ads">
+                            <!-- <div class="col-md-4 col-sm-6 graphics ads">
                                 <a id="demo05" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/05.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
@@ -460,11 +507,11 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
                             <!-- end single work -->
                             
                             <!-- single work -->
-                            <div class="col-md-4 col-sm-6 photography">
+                            <!-- <div class="col-md-4 col-sm-6 photography">
                                 <a id="demo06" href="#animatedModal" class="portfolio_item"> <img src="img/portfolio/010.jpg" alt="image" class="img-responsive" />
                                     <div class="portfolio_item_hover">
                                         <div class="portfolio-border clearfix">
@@ -472,7 +519,7 @@
                                         </div>
                                     </div>
                                 </a>
-                            </div>
+                            </div> -->
                             <!-- end single work -->
 
                             <!-- single work -->
@@ -592,22 +639,21 @@
                 <div class="portfolio-padding">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="col-md-12">
-                            <h4>4人 Team Project</h4>
-                            <p>2021.05.01 ~ 2021.05.11</p>
+                            <h4>5人 Team Project</h4>
+                            <p>2021.04.26 ~ 2021.05.11</p>
                             <h1 class="size-50">전산 관리 시스템</h1> 
                             <div class="h-50"></div>
                             <h3>"파일 입출력 기반의 데이터 처리 자바 콘솔 프로젝트"</h3>
                         </div>
-                        
                         <div class="h-50"></div>
+                        
                         <div class="modal-pro-content">
-                            <br>
                             
                             <h3>개발 환경</h3>
-                            <table class="pro_tbl">
+                            <table class="pro_tbl2">
                                 <tr>
-                                    <th class="first">개발환경</th>
-                                    <th class="second">버전</th>
+                                    <th class="first2">개발환경</th>
+                                    <th class="second2">버전</th>
                                 </tr>
                                 <tr>
                                     <td>2S version(platform)</td>
@@ -618,19 +664,25 @@
                                     <td>JDK 1.8</td>
                                 </tr>
                                 <tr>
-                                    <td>Eclipse version(Development tool)</td>
+                                    <td>Eclipse version<br>(Development tool)</td>
                                     <td>Mars.2.Release(4.5.2) / Neon 1a Release</td>
                                 </tr>
                             </table>
                             <br><br>
+                           
 
-                            <h3>개요</h3>
-                            <p>1. 회사 직원들의 인적사항, 일정, 급여 등을 한눈에 확인할 수 있는 프로그램</p>
-                            <p>2. 이 프로그램을 사용하여 기존의 전산 관리 시스템(연차, 게시판, 스케줄, 근태 관리 등)과 유사한 시스템을 이용하는 프로그램</p>
-                            <br>
                             <h3>목적</h3>
-                            <p>1. 기존의 전산 관리 시스템에 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
-                            <p>2. 스케줄, 근태 관리나 연차 신청 혹은 퇴직금, 연말정산 계산 기능을 더해 직원들이 회사 생활을 하는데 필요한 기능을 구현하여 기존의 전산 관리 시스템보다 더 편리한 환경을 제공합니다.</p>
+
+                                <div class="pro_obj">
+                                    <div>
+                                        1.&nbsp;&nbsp;&nbsp;&nbsp;기존의 전산 관리 시스템에 기능을 추가하여 차별성을 높인 전산 관리 시스템입니다.
+                                    </div>
+                                    <div>
+                                        2.&nbsp;&nbsp;&nbsp;&nbsp;스케줄, 근태 관리나 연차 신청 혹은 퇴직금, 연말정산 계산 기능을 더해 직원들이 회사 생활에 있어 도움이 되는 기능들을 구현하여 기존의 전산 관리 시스템보다 더 편리한 환경을 제공합니다.
+                                    </div>
+                                </div>
+                       
+                            <br><br>
 
                             <h3>사용 기술</h3>
                             <table class="pro_tbl2">
@@ -640,13 +692,13 @@
                                 </tr>
                                 <tr>
                                     <td>파일 입출력</td>
-                                    <td>BufferedReader, Writer(new FileReader, Writer( “path” )</td>
+                                    <td>BufferedReader, BufferedWriter를 이용한 파일 입출력을 통해 데이터(파일)에 저장된 정보를 읽어와 요구에 맞게 가공하여 업무 구현을 하였습니다.</td>
                                 </tr>
                                 <tr>
                                     <td>컬렉션</td>
                                     <td> ArrayList&lt;T&gt;<br>
-                                        - ArrayList를 활용하여 더미데이터를 보다 쉽게 사용할 수 있도록 하였다.<br>
-                                        - ArrayList.add / ArrayList.remove 등을 활용하여 데이터를 새로 추가하거나 삭제할 수 있도록 하였다.
+                                        - ArrayList를 활용하여 더미데이터를 보다 쉽게 사용할 수 있도록 하였습니다.<br>
+                                        - 프로그램 동작 시 더미데이터를 ArrayList에 저장하여 각각의 업무에서 자유롭게(조회/삭제 등) 사용 할 수 있도록 하였습니다. <br>
                                     </td>
                                 </tr>
                                 <tr>
@@ -658,10 +710,10 @@
                                 </tr>
                                 <tr>
                                     <td>Random, Math 함수</td>
-                                    <td>더미 데이터를 생성하기 위한 Random, Math 함수</td>
+                                    <td>더미 데이터를 생성하기 위해 Random, Math 함수를 사용하였습니다.</td>
                                 </tr>
                             </table>
-                            <br>
+                            <br><br>
 
                             <h3>핵심업무</h3>
                             <h4>직원/관리자 업무</h4>
@@ -750,18 +802,20 @@
                             </table>
                             <br /><br />
 
+                          
                             <h3>구동화면</h3>
+                            
                             <br />
-
                             <h4>직원_스케줄확인</h4>
                              <img src="img/portfolio/pro01_schedule.png" alt="" class="img-responsive pro_img" />
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>스케줄 확인하고 싶은 달을 입력하면 위 사진과 같이 달력과 연차 사용 직원들의 정보를 한 눈에 확인할 수 있습니다.</li>
+                                    <li>직원들이 스케줄을 확인하는 화면입니다.</li>
+                                    <li>자신의 스케줄을 포함한 모든 직원의 스케줄 정보를 한눈에 파악할 수 있습니다.</li>
                                     <li>날짜(일)을 입력하면 해당 날짜의 연차 상세정보(연차 종류/사유)를 확인할 수 있습니다.</li>
-                                    <li>사용기술<br>
-                                        Ca</li>
+                                    <!-- <li>사용기술<br>
+                                        Ca</li> -->
                                 </ul>
                             </div>
                             <br /><br />
@@ -771,8 +825,9 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>연차신청을 원하는 날짜를 입력하여 연차 신청을 할 수 있습니다.</li>
-                                    <li>해당 날짜에 같은 부서내의 직원이 연차 신청을 한 경우 날짜를 다시 입력하여야 하고, 중복이 없는경우 연차 신청서를 작하여 신청을 완료합니다.</li>
+                                    <li>연차신청을 할 수 있는 화면입니다.</li>
+                                    <li>직원들은 자신이 원하는 날짜를 선택하여 연차 신청을 할 수 있습니다.</li>
+                                    <li>해당 날짜에 같은 부서내의 직원이 연차 신청을 한 경우 날짜를 다시 입력하여야 하고, 중복이 없는경우 연차 신청서를 작성하여 신청을 완료합니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -782,7 +837,8 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>직원들은 출/퇴근시 체크를 하여야하고, 자신의 근태현황을 확인할 수 있습니다.</li>
+                                    <li>직원들이 출/퇴근시 체크하여 근태를 기록하는 화면입니다.</li>
+                                    <li>금월 근태 현황을 확인할 수 있습니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -792,7 +848,8 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>자신의 근태 이상(조퇴/지각)에 서류를 하여 관리자가 이를 확인 할 수 있습니다.</li>
+                                    <li>자신의 근태현황 이상에 서명을 하는 화면입니다.</li>
+                                    <li>서류의 내용이 맞으면 서명을 하여 관리자가 이를 확인 할 수 있도록 구현하였습니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -802,6 +859,7 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
+                                    <li>코로나 자가진단을 할 수 있는 화면입니다.</li>
                                     <li>직원들은 출근 시 코로나 자가진단서에 문답을 함으로써 관리자가 이상이 있는지 확인할 수 있습니다.</li>
                                 </ul>
                             </div>
@@ -813,8 +871,8 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>스케줄을 확인하고 싶은 달을 선택하면 위와 같이 달력과 날짜별 연차 사용직원을 확인할 수 있습니다.</li>
-                                    <li>날짜(일)을 입력하면 해당 날짜의 연차 상세정보(연차 종류/사유)를 확인할 수 있습니다.</li>
+                                    <li>자신의 급여 명세서를 확인 할 수 있는 화면입니다.</li>
+                                    <li>로그인한 직원의 정보를 불러와 자동으로 계산되어 보여집니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -825,7 +883,8 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>자신의 급여 명세서를 확인 할 수 있습니다.</li>
+                                    <li>퇴직금을 미리 계산해볼 수 있는 화면입니다.</li>
+                                    <li>본인의 입사일 기준으로 계산되며 퇴직을 원하는 날짜를 입력하여 계산하고 싶은 방식을 선택하여 퇴직금을 계산할 수 있습니다. </li>
                                 </ul>                      
                             </div>
                             <br /><br />
@@ -836,7 +895,9 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
+                                    <li>연말정산을 할 수 있는 화면입니다.</li>
                                     <li>자신의 연봉을 확인하고 예상 연말정산 금액을 확인할 수 있습니다.</li>
+                                    <li>예상 금액을 확인하여 아낄 수 있는 세금등을 확인 할 수 있습니다.</li>
                                 </ul> 
                             </div>
                             <br /><br />
@@ -856,8 +917,9 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>스케줄을 확인하고 싶은 달을 선택하면 위와 같이 달력과 날짜별 연차 사용직원을 확인할 수 있습니다.</li>
-                                    <li>날짜(일)을 입력하면 해당 날짜의 연차 상세정보(연차 종류/사유)를 확인할 수 있습니다.</li>
+                                    <li>사내 직원들과 자유롭게 소통이 가능한 익명 커뮤니티 게시판 화면입니다.</li>
+                                    <li>직원들은 게시글 읽기/작성/수정/삭제를 할 수 있습니다.</li>
+                                    <li>자유롭게 댓글을 달며 일상을 공유하거나 소통을 할 수 있습니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -870,6 +932,7 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
+                                    <li>직원 관리를 할 수 있는 화면입니다. </li>
                                     <li>직원들의 정보를 수정/추가/삭제할 수 있으며, 직급/부서별 직원 정보를 조회할 수 있습니다. </li>
                                 </ul>
                             </div>
@@ -881,7 +944,9 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>스케줄을 확인하고 싶은 달을 선택하면 위와 같이 달력과 날짜별 연차 사용직원을 확인할 수 있습니다. </li>
+                                    <li>직원들의 근태서류 또는 코로나 자가진단서를 확인하는 화면입니다. </li>
+                                    <li>지각(조퇴)등의 근태 이상이 본인이 맞는지 서명된 서류를 통해 확인할 수 있습니다.</li>
+                                    <li>전 직원들의 코로나 자가진단서 중 이상이 있는 직원들의 진단서만 보여지며 이를 통해 추후의 조치를 취할 수 있습니다.</li>
                                 </ul>
                             </div>
                             <br /><br />
@@ -894,33 +959,46 @@
                             <br />
                             <div class= "pro_detail">
                                 <ul>
-                                    <li>스케줄을 확인하고 싶은 달을 선택하면 위와 같이 달력과 날짜별 연차 사용직원을 확인할 수 있습니다. </li>
-                                    <li>날짜(일)을 입력하면 해당 날짜의 연차 상세정보(연차 종류/사유)를 확인할 수 있습니다. </li>
+                                    <li>직원들의 스케줄(연차) 신청서를 확인하여 결재하는 화면입니다.</li>
+                                    <li>직원들이 결재 신청한 서류를 확인하여 이를 결재 또는 반려할 수 있습니다. </li>
                                 </ul>
                             </div>
                             <br /><br />
-
-
-                            <h3>적용 기술</h3>
-                            <table class="pro_tbl">
+                            
+                            <h3>담당 업무</h3>
+                            <h5>팀원 1명과 함께 업무를 담당하여 구현하였습니다.</h5>
+                            <table class="pro_tbl4">
                                 <tr>
-                                    <td class="first">2S version(platform)</td>
-                                    <td class="second">Windows 10</td>
+                                    <th rowspan="3">업무</th>
+                                    <td>직원 - 근태관리, 서류서명, 코로나 자가진단, 급여 명세서, 퇴직금</td>
                                 </tr>
                                 <tr>
-                                    <td>JAVA version(Language)</td>
-                                    <td>JDK 1.8</td>
+                                    <td>관리자 - 결제서류</td>
                                 </tr>
                                 <tr>
-                                    <td>Eclipse version(Development tool)</td>
-                                    <td>Mars.2.Release(4.5.2) / Neon 1a Release</td>
+                                    <td>로그인 화면 구성</td>
                                 </tr>
                             </table>
+                            <br><br>
                             
-                            <h3>느낀점</h3>
-                            <p>1. 기존의 전산 관리 시스템 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
-                            <p>2. 근태 관리나 연차 신청, 혹은 직원들을 위한 커뮤니티 게시판을 한번에 이용할 수 있기 때문에 기존의 전산 관리 시스템보다 더 편리한 환경을 제공한다.</p>
+                            <h3>최종 후기</h3>
                             <br>
+                            <table class="pro_tbl4">
+                                <tr>
+                                    <th>총평</th>
+                                    <td>센터 과정 중 첫 프로젝트로 팀원들과 많은 회의를 거쳐 기획부터 화면 설계, 데이터 파일, 구현, 최종 보고서까지 약 2주간 진행하였습니다. 프로젝트의 능숙하지 않아 더미 데이터를 반복적으로 수정하여야 했고, 파일 입출력 시 생기는 오류가 많아 처음에는 어려움을 겪었습니다. 프로젝트를 진행하면서 나름 노하우가 생겨 파일 입출력하기 전에 공백 제거, 경로 확인, 데이터 쓰기 할 때 append 모드인지 아닌지 미리 확인하여 오류를 점차 줄여나갈 수 있었고, 에러가 나도 잘 대처할 수 있는 능력이 생겼습니다. <br><br>
+                                    5인팀 프로젝트를 하면서 의견이 다양해 충돌 할 수 있었지만, 자신의 의견을 적극적으로 표현을 하면서도 서로의 의견을 존중해주었기에 잘 마무리 할 수 있었습니다. 다음 프로젝트를 진행한다면 이번 프로젝트를 하면서 겪은 일을 다시 겪지 않기 위해 기획단계부터 탄탄히 하여 수월하게 프로젝트를 진행 할 수 있도록 할 것입니다.
+                                </td>
+                                </tr>
+                                <!-- <tr>
+                                    <th>기술 향상</th>
+                                    <td>프로젝트를 진행하면서 사용한 주된 기술은 BufferedReader, BufferedWriter로 파일 입출력과 더미 데이터 정보를 ArrayList배열에 저장하여 필요한 업무 구현에서 사용하였습니다.</td>
+                                </tr>
+                                <tr>
+                                    <th>느낀점</th>
+                                    <td>센터 과정 중 첫 프로젝트라 아쉬움이 많이 남는 프로젝트인 것 같습니다. </td>
+                                </tr> -->
+                            </table>
                         </div>
                         
                         <br />
@@ -936,17 +1014,18 @@
     <div id="animatedModal02" class="popup-modal pro-modal">
         <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID -->
         <div id="btn-close-modal02" class="close-animatedModal02 close-popup-modal02"> 
-            <img src="img/portfolio/cancleBtn.PNG" style="display: block; float: right;" />
+            <i class="ion-close-round"></i>
         </div>
+        <!-- <div id="btn-close-modal" class="close-animatedModal close-popup-modal"> <i class="ion-close-round"></i> </div> -->
         <div class="clearfix"></div>
         <div class="modal-content">
             <div class="container">
                 <div class="portfolio-padding">
                     <div class="col-md-8 col-md-offset-2">
                         <div class="col-md-12">
-                            <h4>4人 Team Project</h4>
-                            <p>2021.05.01 ~ 2021.05.11</p>
-                            <h1 class="size-50">sist 운영 관리 시스템</h1> 
+                            <h4>5人 Team Project</h4>
+                            <p>2021.05.24 ~ 2021.06.11</p>
+                            <h1 class="size-50">센터 운영 관리 시스템</h1> 
                             <div class="h-50"></div>
                             <h3>"데이터베이스 프로젝트"</h3>
                         </div>
@@ -956,36 +1035,34 @@
                             <br>
                             
                             <h3>개발 환경</h3>
-                            <table class="pro_tbl">
+                            <table class="pro_tbl2">
                                 <tr>
-                                    <th class="first">개발환경</th>
-                                    <th class="second">버전</th>
+                                    <th class="first2">개발환경</th>
+                                    <th class="second2">버전</th>
                                 </tr>
                                 <tr>
                                     <td>2S version(platform)</td>
                                     <td>Windows 10</td>
                                 </tr>
                                 <tr>
-                                    <td>JAVA version(Language)</td>
-                                    <td>JDK 1.8</td>
-                                </tr>
-                                <tr>
-                                    <td>Eclipse version(Development tool)</td>
-                                    <td>Mars.2.Release(4.5.2) / Neon 1a Release</td>
+                                    <td>SQL developer</td>
+                                    <td>Oracle Database 11g Express Edition</td>
                                 </tr>
                             </table>
                             <br><br>
 
-                            <h3>개요</h3>
-                            <p>1. 회사 직원들의 인적사항, 일정, 급여 등을 한눈에 확인할 수 있는 프로그램</p>
-                            <p>2. 이 프로그램을 사용하여 기존의 전산 관리 시스템(연차, 게시판, 스케줄, 근태 관리 등)과 유사한 시스템을 이용하는 프로그램</p>
-                            <br>
-                            
                             <h3>목적</h3>
-                            <p>1. 기존의 전산 관리 시스템 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
-                            <p>2. 근태 관리나 연차 신청, 혹은 직원들을 위한 커뮤니티 게시판을 한번에 이용할 수 있기 때문에 기존의 전산 관리 시스템보다 더 편리한 환경을 제공한다.</p>
-                            <p>3. 기존에는 오프라인에서만 이용할 수 있었던 환경이었으나, 온라인으로 이용할 수 있게 만듦으로써 직원들에게 편의성을 제공한다.</p>
-                            <br>
+                            <div class="pro_obj">
+                                <div>
+                                    1.&nbsp;&nbsp;&nbsp;&nbsp;센터에서(쌍용교육센터)에서 사용하는 운영 프로그램을 구현하였습니다.
+                                </div>
+                                <div>
+                                    2.&nbsp;&nbsp;&nbsp;&nbsp;본래 있는 프로그램을 구현해봄으로서 더미 데이터 생성, ERD 다이어그램 작성, 데이터 조작할 수 있는 능력을 키웠습니다.</
+                                </div>
+                            </div>
+                            
+                            <br><br>
+
 
                             <h3>사용 기술</h3>
                             <table class="pro_tbl2">
@@ -994,29 +1071,39 @@
                                     <th class="second2">상세 내용</th>
                                 </tr>
                                 <tr>
-                                    <td>파일 입출력</td>
-                                    <td>BufferedReader, Writer(new FileReader, Writer( “path” )</td>
+                                    <td>View</td>
+                                    <td>자주 조회하는 테이블은 view를 이용해 가상의 테이블로 만들어 둬 재사용성을 높였습니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>컬렉션</td>
-                                    <td> ArrayList&lt;T&gt;<br>
-                                        - ArrayList를 활용하여 더미데이터를 보다 쉽게 사용할 수 있도록 하였다.<br>
-                                        - ArrayList.add / ArrayList.remove 등을 활용하여 데이터를 새로 추가하거나 삭제할 수 있도록 하였다.
-                                    </td>
+                                    <td>Procedure</td>
+                                    <td>컬럼을 삭제/수정하는 등의 조작이 필요한 경우 프로시저를 이용해 변경하고자 하는 컬럼번호와, 컬럼 값을 입력하여 변경을 쉽게 하도록 구현하였습니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>캘린더</td>
-                                    <td>Calendar<br>
-                                        - Calendar 타입의 now 변수를 선언하여, 게시글을 새로 작성할 때 그 게시글에 날짜를 저장해줄 수 있도록 하였다.<br>
-                                        - Day_of_week과 Calendar.Year, Calendar.Month 등을 활용하여 직원들의 스케줄을 파악하기 쉽도록 만들었다.
-                                    </td>
+                                    <td>Function</td>
+                                    <td>복잡한 계산을 해야하는 교육생들의 성적 총 합과, 취업 현황 정보를 제공할 때 교육생들의 이름을 익명으로 표시해주기위해 함수를 구현하였습니다.</td>
                                 </tr>
                                 <tr>
-                                    <td>Random, Math 함수</td>
-                                    <td>더미 데이터를 생성하기 위한 Random, Math 함수</td>
+                                    <td>Trigger</td>
+                                    <td>데이터 조작에 자동으로 실행되는 프로시저를 구현하여 교육생들의 출결 신호에 이상 시간(지각, 조퇴, 외출)이 들어오면 이를 처리해 주는 트리거를 구현하였습니다.   </td>
                                 </tr>
+                                <tr>
+                                    <td>Index</td>
+                                    <td>테이블에 있는 데이터를 빨리 찾기 위해 index를 구현해 사용하였습니다.</td>
+                                </tr>
+                               
                             </table>
                             <br>
+
+                            <h3>산출물</h3>
+                            <br />
+
+                            <h5>요구분석서</h5>
+                             <img src="img/portfolio_2/pro02.png" alt="" class="img-responsive pro_img" />
+                             <br />
+
+                            <h5>ERD</h5>
+                             <img src="img/portfolio_2/erd.png" alt="" class="img-responsive pro_img" />
+                             <br /><br>
 
                             <h3>핵심업무</h3>
                             </br>
@@ -1112,7 +1199,7 @@
                                 <br />
                                 <img src="img/portfolio_2/pro02_T_login.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
+                                <h5>결과</h5>  
                                 <img src="img/portfolio_2/pro02_T_login_result.png" alt="" class="img-responsive pro_img" />
                              <br />
                                 <ul>
@@ -1123,19 +1210,18 @@
                             
                             <h4>관리자_교사 계정 관리</h4>
                             <div class= "pro_detail">
-                                <p>
-                                    - 관리자는 교사 계정을 조회/등록/수정/삭제를 할 수 있습니다.
-                                </p>                         
                                 <br />
-                                <p>[교사 계정 조회]</p>
+                                <h5>교사 계정 조회</h5>
                                 <img src="img/portfolio_2/pro02_m002.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
+                                <h5>결과</h5>   
                                 <img src="img/portfolio_2/pro02_m002_result.png" alt="" class="img-responsive pro_img" />
-                                <p>[교사 계정 수정]</p>
+                                <h5>교사 계정 수정 & 결과</h5>
                                 <img src="img/portfolio_2/pro02_m002_update.png" alt="" class="img-responsive pro_img" />
                                 <ul>
-                                    <li>자주 사용하는 </li>
+                                    <li>관리자가 교사 계정을 조회하여 관리(수정/등록/삭제)할 수 있습니다.</li>
+                                    <li>View 테이블에 조건을 걸어 조회하고자 하는 교사를 조회할 수 있습니다.</li>
+                                    <li>교사 수정은 프로시저로 구현해보았는데 수정하고자 하는 컬럼번호와 수정할 값을 입력하면 간편하게 수정을 할 수 있습니다.</li>
                                 </ul>
                              <br />
                             </div>
@@ -1143,23 +1229,21 @@
                             
                             <h4>관리자_개설과정 관리</h4>
                             <div class= "pro_detail">
-                                <p>
-                                    - 관리자는 개설 과정을 조회/등록/수정/삭제를 할 수 있습니다.
-                                </p>                         
+                                              
                                 <br />
-                                <p>[개설과정 조회]</p>
+                                <h5>개설과정 조회</h5>
                                 <img src="img/portfolio_2/pro02_m003.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
-
+                                <h5>결과</h5>  
                                 <img src="img/portfolio_2/pro02_m003_result.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p>[개설과정 수정]</p>
+                                <h5>개설과정 수정</h5>
                                 <img src="img/portfolio_2/pro02_m003_update.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
+                                <h5>결과</h5>  
                                 <img src="img/portfolio_2/pro02_m003_update_result.png" alt="" class="img-responsive pro_img" />
                                 <ul>
+                                    <li>관리자는 개설 과정을 조회/등록/수정/삭제를 할 수 있습니다.</li>
                                     <li>특정 개설과정(3번)의 종료 날짜를 2021-07-04일로 수정해 보았습니다.</li>
                                 </ul>
                             </div>
@@ -1168,22 +1252,22 @@
 
                             <h4>관리자_교육종료교육생 관리</h4>
                             <div class= "pro_detail">
-                                <p>
-                                    - 관리자는 과정이 종료된 교육생들을 교육종료교육생 테이블로 이동시켜 현수강생들과 분리하여 관리를 할 수 있습니다.
-                                </p>                         
                                 <br />
-                                <p>[교육 종료 교육생 관리]</p>
+                                <h5>교육종료교육생 관리</h5>
                                 <img src="img/portfolio_2/pro02_m013.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
+                                <h5>결과</h5>  
                                 <img src="img/portfolio_2/pro02_m013_result.png" alt="" class="img-responsive pro_img" />
                                 <br />
                                 <ul>
                                     <li>
-                                        관리자는 개설과정의 종료날짜가 되면 교육생들을 종료교육생 테이블로 이동시켜야합니다.
+                                        관리자는 과정이 종료된 교육생들을 교육종료교육생 테이블로 이동시켜 현수강생들과 분리하여 관리를 할 수 있습니다.
                                     </li>
                                     <li>
-                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 종료교육생 테이블로 이동시킬 수 있습니다.
+                                        교육이 종료된 교육생들을 교육종료교육생 테이블로 간편하게 이동시키기 위해 프로시저를 구현해보았습니다.
+                                    </li>
+                                    <li>
+                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 한 번에 종료교육생 테이블로 이동시킬 수 있습니다.
                                     </li>
                                 </ul>
                             </div>
@@ -1192,20 +1276,16 @@
                             
                             <h4>교사_교육생출결관리</h4>
                             <div class= "pro_detail">
-                                <p>[담당 과정 조회] > [출결 현황 조회]</p>                         
                                 <br />
-                                <img src="img/portfolio_2/pro02_T002_01.png" alt="" class="img-responsive pro_img" />
-                                <br />
+                                <!-- <img src="img/portfolio_2/pro02_T002_01.png" alt="" class="img-responsive pro_img" />
+                                <br /> -->
                                 <img src="img/portfolio_2/pro02_T002_02.png" alt="" class="img-responsive pro_img" />
-                                <p> [결과] </p>  
-                                <img src="img/portfolio_2/pro02_T002_02_result.png" alt="" class="img-responsive pro_img" />
-                                <br />
                                 <ul>
                                     <li>
-                                        관리자는 개설과정의 종료날짜가 되면 교육생들을 종료교육생 테이블로 이동시켜야합니다.
+                                        교사는 자신이 담당하는 과정번호를 통해 해당 교육생들의 출결 현황을 조회할 수 있습니다.
                                     </li>
                                     <li>
-                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 종료교육생 테이블로 이동시킬 수 있습니다.
+                                        특정 날짜의 출결현황을 조회할 수 있는 프로시저를 구현 하였습니다.
                                     </li>
                                 </ul>
                             </div>
@@ -1218,15 +1298,9 @@
                                 <br />
                                 <img src="img/portfolio_2/pro02_T004.png" alt="" class="img-responsive pro_img" />
                                 <br />
-                                <p> [결과] </p>  
-                                <img src="img/portfolio_2/pro02_T004_result.png" alt="" class="img-responsive pro_img" />
-                                <br />
                                 <ul>
                                     <li>
-                                        관리자는 개설과정의 종료날짜가 되면 교육생들을 종료교육생 테이블로 이동시켜야합니다.
-                                    </li>
-                                    <li>
-                                        프로시저를 이용하여 개설 과정 종료날짜가 현 시점보다 전에 있으면 해당 교육생들을 종료교육생 테이블로 이동시킬 수 있습니다.
+                                        교육생들의 필기, 실기, 출결 점수를 더해 총점을 출력해주는 함수를 구현해보았습니다.
                                     </li>
                                 </ul>
                             </div>
@@ -1251,27 +1325,44 @@
                             
                             <br /><br />
 
-                            <h3>적용 기술</h3>
-                            <table class="pro_tbl">
+                            <h3>담당 업무</h3>
+                            <table class="pro_tbl4">
                                 <tr>
-                                    <td class="first">2S version(platform)</td>
-                                    <td class="second">Windows 10</td>
+                                    <th rowspan="3">업무</th>
+                                    <td>관리자 - 교육생 관리, 시험 관리 및 성적 조회, 출결 관리 및 출결 조회</td>
                                 </tr>
                                 <tr>
-                                    <td>JAVA version(Language)</td>
-                                    <td>JDK 1.8</td>
+                                    <td>더미 데이터, DDL, DML 작성</td>
                                 </tr>
                                 <tr>
-                                    <td>Eclipse version(Development tool)</td>
-                                    <td>Mars.2.Release(4.5.2) / Neon 1a Release</td>
+                                    <td>View, Procedure, Function, Index 구현 </td>
                                 </tr>
                             </table>
+
+                            <br><br>
                             
-                            <h3>느낀점</h3>
-                            <p>1. 기존의 전산 관리 시스템 다른 기능을 추가하여 차별성을 높이고, 보다 나은 서비스를 제공한다.</p>
-                            <p>2. 근태 관리나 연차 신청, 혹은 직원들을 위한 커뮤니티 게시판을 한번에 이용할 수 있기 때문에 기존의 전산 관리 시스템보다 더 편리한 환경을 제공한다.</p>
-                            <p>3. 기존에는 오프라인에서만 이용할 수 있었던 환경이었으나, 온라인으로 이용할 수 있게 만듦으로써 직원들에게 편의성을 제공한다.</p>
+                            <h3>최종 후기</h3>
                             <br>
+                            <table class="pro_tbl4">
+                                <tr>
+                                    <th>총평</th>
+                                    <td>
+                                        센터 과정 중 첫 프로젝트로 팀원들과 많은 회의를 거쳐 기획부터 화면 설계, 데이터 파일, 구현, 최종 보고서까지 약 2주간 진행하였습니다. 프로젝트의 능숙하지 않아 더미 데이터를 반복적으로 수정하여야 했고, 파일 입출력 시 생기는 오류가 많아 처음에는 어려움을 겪었습니다. 프로젝트를 진행하면서 나름 노하우가 생겨 파일 입출력하기 전에 공백 제거, 경로 확인, 데이터 쓰기 할 때 append 모드인지 아닌지 미리 확인하여 오류를 점차 줄여나갈 수 있었고, 에러가 나도 잘 대처할 수 있는 능력이 생겼습니다. <br><br>
+                                        5인팀 프로젝트를 하면서 의견이 다양해 충돌 할 수 있었지만, 자신의 의견을 적극적으로 표현을 하면서도 서로의 의견을 존중해주었기에 잘 마무리 할 수 있었습니다. 다음 프로젝트를 진행한다면 이번 프로젝트를 하면서 겪은 일을 다시 겪지 않기 위해 기획단계부터 탄탄히 하여 수월하게 프로젝트를 진행 할 수 있도록 할 것입니다.
+                                    </td>
+                                    <td>
+                                       
+                                    </td>
+                                </tr>
+                                <!-- <tr>
+                                    <th>기술 향상</th>
+                                    <td>프로젝트를 진행하면서 사용한 주된 기술은 BufferedReader, BufferedWriter로 파일 입출력과 더미 데이터 정보를 ArrayList배열에 저장하여 필요한 업무 구현에서 사용하였습니다.</td>
+                                </tr>
+                                <tr>
+                                    <th>느낀점</th>
+                                    <td>센터 과정 중 첫 프로젝트라 아쉬움이 많이 남는 프로젝트인 것 같습니다. </td>
+                                </tr> -->
+                            </table>
                         </div>
                         
                         <br />
