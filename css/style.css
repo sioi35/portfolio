@@ -85,7 +85,7 @@ nav ul li a {
 p {
   margin: 25px 0;
   padding: 0;
-  font-size: 15px;
+  font-size: 20px;
   color: #999999;
   line-height: 28px;
 }
@@ -125,7 +125,7 @@ p {
 }
 
 .section-title h2 {
-  font-size: 25px;
+  font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -248,7 +248,7 @@ nav ul li a {
 
 #header .header-content {
   height: 100vh;
-  text-align: left;
+  text-align: center;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -256,20 +256,20 @@ nav ul li a {
 }
 
 .header-content h1 {
-  font-size: 40px;
+  font-size: 35px;
   font-weight: 700;
   margin-bottom: 10px;
   text-transform: uppercase;
-  color: #fff;
+  color: #555;
 }
 
 .header-content p {
-  font-size: 13px;
+  font-size: 15px;
   letter-spacing: 5px;
   margin-top: 0;
   margin-bottom: 30px;
   text-transform: capitalize;
-  color: #fff;
+  color: #555;
   font-weight: 500;
 }
 
@@ -309,7 +309,6 @@ nav ul li a {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
   font-size: 28px;
   text-align: left;
 }
@@ -319,6 +318,8 @@ nav ul li a {
   margin-bottom: 0;
   text-align: left;
 }
+
+
 
 /*-----------------------------------------------------------------------------------*/
 /*   Services
@@ -346,12 +347,12 @@ nav ul li a {
 
 .services-block .separator {
   margin: 0;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 22px;
 }
 
 .services-block i {
-  font-size: 44px;
+  font-size: 45px;
   color: #b8a07e;
   line-height: 44px;
 }
@@ -384,6 +385,40 @@ nav ul li a {
 
 .owl-nav {
   display: none;
+}
+
+#services .container h3{
+  color: #b8a07e;
+  font-size: 30px;
+  margin-bottom: 25px;
+  border-left: 5px solid #b8a07e;
+  padding-left: 15px;
+}
+
+#services table{
+  color: #555;
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+#services table th{
+  font-size: 23px;
+}
+
+#services table td{
+  height: 50px;
+}
+
+#services table th:nth-child(1){
+  width: 200px;
+}
+
+#services table th:nth-child(2){
+  width: 200px;
+}
+
+#services table th:nth-child(3){
+  width: auto;
 }
 
 
@@ -444,8 +479,9 @@ nav ul li a {
   min-height: 260px;
 }
 
+
 .portfolio-thumbnail img {
-  max-width: 100%;
+  width: 240px;
   height: 260px;
 }
 
@@ -525,10 +561,38 @@ nav ul li a {
   background-color: #f7f7f7;
 }
 
+#contact .contact-contact .header{
+  font-size: 30px;
+  height: 70px;
+  color: #555;
+}
+
+#contact .contact-contact table{
+  margin: 0 auto;
+  font-size: 20px;
+  margin-left: 400px;
+  text-align: center;
+}
+
+#contact .contact-contact th{
+  width: 130px;
+  color:#b8a07e;
+  text-align: left;
+  height: 40px;
+}
+
+#contact .contact-contact td{
+  width: 100px;
+  color:#555;
+  text-align: left;
+}
+
 .contact-details {
   list-style: none;
   margin: 0;
   padding: 0;
+  font-size: 20px;
+  text-align: center;
 }
 
 .contact-details li {
@@ -539,38 +603,6 @@ nav ul li a {
   width: 100%;
 }
 
-
-#contact  #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact  #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin: 15px;
-}
-
-#contact #sendmessage.show, #contact #errormessage.show, #contact .show {
-  display: block;
-}
-
-#contact .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
 
 /*-----------------------------------------------------------------------------------*/
 /*  Footer

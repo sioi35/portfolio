@@ -79,8 +79,8 @@ $(document).ready(function() {
 
   $(function() {
     typed.typed({
-      strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
-      typeSpeed: 100,
+      strings: ["신입 개발자입니다.", "배움에 두려움이 없습니다.", "더 나은 미래를 위해 끊임없이 노력합니다."],
+      typeSpeed: 150,
       loop: true,
     });
   });
